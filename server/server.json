@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "pid": 1,
+      "name": "Трансформация системы учета ООО 'Компания X' "
+    },
+    {
+      "pid": 2,
+      "name": "Первая линия поддержки ООО 'Компания Z' "
+    }
+  ],
+  "tasks": [
+    {
+      "pid": 1,
+      "tid": 1,
+      "description": "Настройка заводов и складов",
+      "crdate": 1609188270887,
+      "responsible": [
+        "user1"
+      ],
+      "plantime": 15,
+      "sumtrackedtime": 5
+    },
+    {
+      "pid": 1,
+      "tid": 2,
+      "description": "Миграция данных из старой системы",
+      "crdate": 1609188270987,
+      "responsible": [
+        "user1",
+        "user2"
+      ],
+      "plantime": 20,
+      "sumtrackedtime": 1
+    },
+    {
+      "pid": 2,
+      "tid": 3,
+      "description": "Инцидент с неправильной проводкой счета-фактуры",
+      "crdate": 1609188270887,
+      "responsible": [
+        "user2"
+      ],
+      "plantime": 2,
+      "sumtrackedtime": 0
+    }
+  ],
+  "task4user": [
+    {
+      "userid": "user1",
+      "tid": 1,
+      "id": 1
+    },
+    {
+      "userid": "\"user1\"",
+      "tid": 2,
+      "id": 2
+    },
+    {
+      "userid": "\"user1\"",
+      "tid": 3,
+      "id": 3
+    }
+  ]
+}
